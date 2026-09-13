@@ -128,3 +128,17 @@ for those observations.
 
 Downloaded libraries, toolchains, build products, credentials, raw household
 recordings, and personal session notes are excluded from version control.
+
+## License
+
+Copyright (c) 2026 Soheil Samadi.
+
+Original code, documentation, configuration, and synthetic example data in this
+repository are licensed under the **GNU Affero General Public License v3.0 only**
+(`AGPL-3.0-only`). See [LICENSE](LICENSE) for the full terms.
+
+Third-party libraries, board support packages, and tools retain their own licenses;
+they are not relicensed by this repository. See
+[third-party notices](THIRD_PARTY_NOTICES.md) for the dependencies reviewed and
+the limits of that review. Downloaded dependencies and compiled firmware are not
+included in the repository.

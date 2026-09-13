@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 Soheil Samadi
+# SPDX-License-Identifier: AGPL-3.0-only
+# Licensed under the GNU AGPL v3; see LICENSE in the repository root.
+
 """Replay a timestamped sensor log offline; never send notifications."""
 import argparse
 import json

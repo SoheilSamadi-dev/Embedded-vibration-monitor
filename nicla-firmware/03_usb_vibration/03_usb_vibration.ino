@@ -1,3 +1,7 @@
+// Copyright (c) 2026 Soheil Samadi
+// SPDX-License-Identifier: AGPL-3.0-only
+// Licensed under the GNU AGPL v3; see LICENSE in the repository root.
+
 #include <Arduino_BHY2.h>
 #include "VibrationAccumulator.h"
 
