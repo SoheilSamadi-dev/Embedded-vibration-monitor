@@ -1,0 +1,8 @@
+{
+  "threshold_raw": 7.0,
+  "start_seconds": 20,
+  "start_fraction": 0.6,
+  "stop_seconds": 120,
+  "max_gap_seconds": 3,
+  "min_pairs_per_second": 25
+}

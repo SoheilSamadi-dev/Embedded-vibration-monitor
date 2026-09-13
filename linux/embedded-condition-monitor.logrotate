@@ -1,0 +1,9 @@
+/home/YOUR_USER/embedded-condition-monitor/nicla-timestamped.log {
+    su YOUR_USER YOUR_USER
+    size 10M
+    rotate 3
+    compress
+    missingok
+    notifempty
+    copytruncate
+}

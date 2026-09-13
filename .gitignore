@@ -1,0 +1,52 @@
+# macOS and editors
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*~
+
+# Downloaded Arduino dependencies and local tool configuration
+/.arduino-data/
+/.arduino-cache/
+/arduino-user/
+/tools/bin/
+/arduino-cli.yaml
+
+# Generated build output
+/build/
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+telegram.json
+*.pem
+*.key
+
+# Runtime data and personal working notes
+*.log
+*.log.*
+washer-state.json
+washer-cycle-journal.txt
+/recordings/
+/PROJECT_LOG.md
+/NEXT_STEPS.md
+
+# Archived training exercises (preserved locally)
+/archive/

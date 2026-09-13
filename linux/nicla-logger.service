@@ -1,0 +1,17 @@
+[Unit]
+Description=Nicla USB sensor logger
+
+[Service]
+Type=exec
+User=YOUR_USER
+SupplementaryGroups=dialout
+Environment=HOME=/home/YOUR_USER
+EnvironmentFile=/home/YOUR_USER/.config/condition-monitor/logger.env
+ExecStart=/bin/bash /home/YOUR_USER/embedded-condition-monitor/logger.sh
+Restart=always
+RestartSec=10
+StandardOutput=null
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
