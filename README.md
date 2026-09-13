@@ -87,6 +87,13 @@ The example is generated data, not a real wash recording.
 
 ## Run the tests
 
+The [GitHub Actions workflow](.github/workflows/tests.yml) runs the Python tests,
+C++ vibration calculation tests, and a logger shell-syntax check on pushes and
+pull requests. It can also be started manually from the repository's Actions tab.
+It uses an Ubuntu runner with Python 3.13 and requires no sensor hardware or
+Telegram credentials. It does not compile the full Arduino firmware or test the
+physical device.
+
 Python 3 and its standard library are sufficient. From the repository root:
 
 ```bash
